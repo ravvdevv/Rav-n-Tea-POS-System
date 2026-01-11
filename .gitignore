@@ -1,0 +1,41 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Development files
+/vendor/
+/node_modules/
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.windsurfrules
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+*.swp
+*.swo
+*~
+
+# Local development
+*.local
+
+# Composer
+composer.lock
+composer.phar
+
+# Environment specific
+!.env.example
